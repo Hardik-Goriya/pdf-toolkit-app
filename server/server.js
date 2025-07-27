@@ -102,5 +102,5 @@ app.post('/api/unlock', upload.single('pdfFile'), (req, res) => {
 
 // === Start the Server ===
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Server is running on https://pdf-toolkit-backend-7s5o.onrender.com:${PORT}`);
 });
