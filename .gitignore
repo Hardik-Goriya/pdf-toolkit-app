@@ -1,0 +1,7 @@
+# foram-fullstack/.gitignore
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db

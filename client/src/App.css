@@ -1,0 +1,72 @@
+/* client/src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+.tool-section {
+  background-color: #20232a;
+  border-radius: 15px;
+  padding: 25px;
+  margin-top: 30px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tool-section h2 {
+  margin-top: 0;
+  color: #61dafb;
+}
+
+.file-name {
+  font-size: 0.8em;
+  color: #ccc;
+  margin-top: 10px;
+  word-break: break-all;
+}
+
+.password-input {
+  margin-top: 15px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+  background-color: #3a3f4a;
+  color: white;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 8px;
+  color: #20232a;
+  transition: background-color 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background-color: #ffffff;
+}
+
+button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+  opacity: 0.6;
+}

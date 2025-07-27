@@ -1,0 +1,10 @@
+# server/.gitignore
+
+# Dependencies
+/node_modules
+
+# Temporary files
+/uploads
+
+# Environment variables (if you add them later)
+.env
