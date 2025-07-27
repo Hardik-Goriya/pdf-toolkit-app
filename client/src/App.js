@@ -52,7 +52,7 @@ function App() {
     }
 
     try {
-      const response = await axios.post(`http://localhost:5000/api/${endpoint}`, formData, {
+      const response = await axios.post(`https://pdf-toolkit-backend-7s5o.onrender.com/${endpoint}`, formData, {
         responseType: 'blob',
       });
       const url = window.URL.createObjectURL(new Blob([response.data]));
